@@ -12,6 +12,7 @@ const Properties = () => {
   const [totalItems, setTotalItems] = useState(0);
 
   useEffect(() => {
+    console.log("nothing changed");
     const fetchProperties = async () => {
       try {
         const res = await fetch(
