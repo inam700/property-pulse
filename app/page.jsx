@@ -1,7 +1,17 @@
-import React from "react";
+import FeaturedProperties from "@/components/FeaturedProperties";
+import Hero from "@/components/Hero";
+import HomeProperties from "@/components/HomeProperties";
+import InfoBoxes from "@/components/InfoBoxes";
 
-const Homepage = () => {
-  return <div>Homepage</div>;
+const Homepage = async () => {
+  return (
+    <>
+      <Hero />
+      <InfoBoxes />
+      <FeaturedProperties />
+      <HomeProperties />
+    </>
+  );
 };
 
 export default Homepage;
